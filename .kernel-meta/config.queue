@@ -1,0 +1,3 @@
+configs///defconfig # non-hardware
+configs//./ipmi_ssif.cfg # non-hardware
+configs//./mtd_test.cfg # non-hardware

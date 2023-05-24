@@ -1,0 +1,4 @@
+
+[INFO]: the following symbols were not found in the active configuration:
+     - CONFIG_IPMI_KCS_BMC_CDEV_IPMI
+     - CONFIG_IPMI_KCS_BMC_SERIO

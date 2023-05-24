@@ -1,0 +1,10 @@
+#
+# scc v0.8
+# processed: Mon Mar  6 23:43:19 KST 2023
+#
+# This is a scc output file, do not edit
+#
+# _reloc_dir /home/keti/KETI_BMC/BMC_SDK/meta-keti/recipes-kernel/linux
+kconf /home/keti/KETI_BMC/BMC_SDK/build/ast2600-keti/tmp/work/ast2600_keti-KETI-linux-gnueabi/linux-aspeed/5.10.36+gitAUTOINC+fa5949e010-r0/defconfig # non-hardware
+kconf /home/keti/KETI_BMC/BMC_SDK/meta-keti/recipes-kernel/linux/files/ipmi_ssif.cfg # non-hardware
+kconf /home/keti/KETI_BMC/BMC_SDK/meta-keti/recipes-kernel/linux/files/mtd_test.cfg # non-hardware

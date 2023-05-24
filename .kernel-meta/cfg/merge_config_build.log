@@ -1,0 +1,49 @@
+Using .kernel-meta/configs///defconfig as base
+Merging .kernel-meta/configs//./ipmi_ssif.cfg
+Merging .kernel-meta/configs//./mtd_test.cfg
+make[1]: Entering directory '/home/keti/KETI_BMC/BMC_SDK/build/ast2600-keti/tmp/work/ast2600_keti-KETI-linux-gnueabi/linux-aspeed/5.10.36+gitAUTOINC+fa5949e010-r0/linux-ast2600_keti-standard-build'
+  GEN     Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  HOSTCC  scripts/kconfig/confdata.o
+  HOSTCC  scripts/kconfig/expr.o
+  LEX     scripts/kconfig/lexer.lex.c
+  YACC    scripts/kconfig/parser.tab.[ch]
+  HOSTCC  scripts/kconfig/lexer.lex.o
+  HOSTCC  scripts/kconfig/parser.tab.o
+  HOSTCC  scripts/kconfig/preprocess.o
+  HOSTCC  scripts/kconfig/symbol.o
+  HOSTCC  scripts/kconfig/util.o
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/keti/KETI_BMC/BMC_SDK/build/ast2600-keti/tmp/work/ast2600_keti-KETI-linux-gnueabi/linux-aspeed/5.10.36+gitAUTOINC+fa5949e010-r0/linux-ast2600_keti-standard-build'
+Value requested for CONFIG_IPMI_KCS_BMC_CDEV_IPMI not in final .config
+Requested value:  CONFIG_IPMI_KCS_BMC_CDEV_IPMI=y
+Actual value:     
+
+Value requested for CONFIG_IPMI_KCS_BMC_SERIO not in final .config
+Requested value:  CONFIG_IPMI_KCS_BMC_SERIO=y
+Actual value:     
+
+Value requested for CONFIG_RUNTIME_TESTING_MENU not in final .config
+Requested value:  # CONFIG_RUNTIME_TESTING_MENU is not setCONFIG_IPMI_SSIF=m
+Actual value:     # CONFIG_RUNTIME_TESTING_MENU is not set
+
+Value requested for CONFIG_IPMI_HANDLER not in final .config
+Requested value:  CONFIG_IPMI_HANDLER=m
+Actual value:     CONFIG_IPMI_HANDLER=y
+
+Value requested for CONFIG_IPMI_SI not in final .config
+Requested value:  CONFIG_IPMI_SI=m
+Actual value:     CONFIG_IPMI_SI=y
+
+Value requested for CONFIG_IPMI_DEVICE_INTERFACE not in final .config
+Requested value:  CONFIG_IPMI_DEVICE_INTERFACE=m
+Actual value:     CONFIG_IPMI_DEVICE_INTERFACE=y
+
+Value requested for CONFIG_MTD_TESTS not in final .config
+Requested value:  CONFIG_MTD_TESTS=m
+Actual value:     
+
